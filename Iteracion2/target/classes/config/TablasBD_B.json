@@ -1,0 +1,30 @@
+{
+	"title": "Nombres de las tablas de AforaAndes para la aplicación B",
+	"unidadPersistencia": "SuperAndes",
+	"tablas":
+	[
+		"SuperAndes_sequence",
+		"B_SUCURSAL",
+		"B_PRODUCTO",
+		"B_CATEGORIA_PRODUCTO",
+		"B_PROVEEDOR",
+		"B_EMPLEADO",
+		"B_CLIENTE",
+		"B_CLIENTE_SUCURSAL",
+		"B_PROVEEDOR_SUCURSAL",
+		"B_PRODUCTO_SUCURSAL",
+		"B_CATEGORIA_PRODUCTO_SUCURSAL",
+		"B_ORDEN_PEDIDO",
+		"B_ACUERDO_VENTA",
+		"B_PROMOCION",
+		"B_FACTURA",
+		"B_PRODUCTO_FACTURA",
+		"B_BODEGA",
+		"B_ESTANTE",
+		"B_PRODUCTO_BODEGA",
+		"B_REABASTECER",
+		"B_USUARIO",
+		"B_ROL",
+		"B_USUARIO_ROL"
+	]
+}

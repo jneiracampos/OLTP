@@ -1,0 +1,12 @@
+ALTER SESSION SET CURRENT_SCHEMA = PARRANDEROS;
+     
+SELECT *
+FROM (SELECT Ciudad, COUNT(PRESUPUESTO)BaresPresupuestoAlto
+        FROM BARES
+        WHERE PRESUPUESTO LIKE 'Alto'
+        GROUP BY CIUDAD)TablaBares 
+        NATURAL INNER JOIN (SELECT CIUDAD, COUNT(PRESUPUESTO)BebedoresPresupuestoMedio
+        FROM BEBEDORES
+        WHERE PRESUPUESTO LIKE 'Alto'
+        GROUP BY CIUDAD)TablaBebedores;
+        

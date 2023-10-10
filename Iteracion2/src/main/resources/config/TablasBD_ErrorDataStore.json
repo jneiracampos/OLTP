@@ -1,0 +1,30 @@
+{
+	"title": "Nombres de las tablas de AforaAndes  para pruebas de la aplicación cuando la base de datos no existe o está caida",
+	"unidadPersistencia": "SuperAndesErrorDS",
+	"tablas":
+	[
+		"SuperAndes_sequence",
+		"X_SUCURSAL",
+		"X_PRODUCTO",
+		"X_CATEGORIA_PRODUCTO",
+		"X_PROVEEDOR",
+		"X_EMPLEADO",
+		"X_CLIENTE",
+		"X_CLIENTE_SUCURSAL",
+		"X_PROVEEDOR_SUCURSAL",
+		"X_PRODUCTO_SUCURSAL",
+		"X_CATEGORIA_PRODUCTO_SUCURSAL",
+		"X_ORDEN_PEDIDO",
+		"X_ACUERDO_VENTA",
+		"X_PROMOCION",
+		"X_FACTURA",
+		"X_PRODUCTO_FACTURA",
+		"X_BODEGA",
+		"X_ESTANTE",
+		"X_PRODUCTO_BODEGA",
+		"X_REABASTECER",
+		"X_USUARIO",
+		"X_ROL",
+		"X_USUARIO_ROL"
+	]
+}

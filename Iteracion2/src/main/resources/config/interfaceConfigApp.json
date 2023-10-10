@@ -1,0 +1,117 @@
+{
+	"title": "Aplicacion transaccional de SuperAndes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Registrar",
+		  "options":
+			[
+				{
+					"label": "RF1 - Registrar Rol",
+					"event": "registrarRol"
+				},
+				{
+					"label": "RF2 - Registrar Sucursal",
+					"event": "registrarSucursal"
+				},
+				{
+					"label": "RF3 - Registrar Usuario",
+					"event": "registrarUsuario"
+				},
+				{
+					"label": "RF4 - Registrar Bodega",
+					"event": "registrarBodega"
+				},
+				{
+					"label": "RF5 - Registrar Estante",
+					"event": "registrarEstante"
+				},
+				{
+					"label": "RF6 - Registar Proveedor",
+					"event": "registrarProveedor"
+				},
+				{
+					"label": "RF7 - Registrar Producto",
+					"event": "registrarProducto"
+				},
+				{
+					"label": "RF8 - Registrar Cliente",
+					"event": "registrarCliente"
+				},
+				{
+					"label": "RF9 - Registar Promocion",
+					"event": "registrarPromocion"
+				},
+				{
+					"label": "RF11 - Registrar Orden Pedido",
+					"event": "registrarOrdenPedido"
+				},
+				{
+					"label": "RF12 - Finalizar Orden Pedido",
+					"event": "finalizarOrdenPedido"
+				},
+				{
+					"label": "RF14 - Registrar Venta",
+					"event": "registrarFactura"
+				}
+			]
+		},
+		{ "menuTitle": "Consulta",
+		"options":
+		  [
+			  {
+				  "label": "Dinero recolectado por ventas",
+				  "event": ""
+			  },
+			  {
+				  "label": "Promociones populares",
+				  "event": ""
+			  },
+			  {
+				  "label": "Indice de ocupacion de bodegas y estantes",
+				  "event": "ocupacionBodegasEstantes"
+			  },
+			  {
+				  "label": "Mostrar un producto",
+				  "event": "mostrarProducto"
+			  },
+			  {
+				  "label": "Mostrar compras a proveedores",
+				  "event": ""
+			  },
+			  {
+				  "label": "Mostrar ventas a un cliente",
+				  "event": ""
+			  }
+		  ]
+	  	},	
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log SuperAndes",
+					"event": "mostrarLogSuperAndes"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de SuperAndes",
+					"event": "limpiarLogSuperAndes"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		}
+	]
+}
+	
